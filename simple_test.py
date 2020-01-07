@@ -8,4 +8,4 @@ def test_simplesum():
   assert sum(1,1) == 2
   
 def test_failingsum():
-  assert sum(1,1) == 3
+  assert sum(1,2) == 3
