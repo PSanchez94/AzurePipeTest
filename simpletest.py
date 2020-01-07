@@ -1,0 +1,10 @@
+# A PyTest for Azure Pipeline
+
+def sum(x, y):
+  return x + y
+
+def test_simplesum():
+  assert sum(1,1) == 2
+  
+def test_failingsum():
+  assert sum(1,1) == 3
