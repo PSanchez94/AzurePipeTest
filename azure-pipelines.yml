@@ -11,4 +11,6 @@ steps:
   inputs:
     versionSpec: '3.6'
     
-- script: pytest
+- script: |
+    pip install pytest
+    pytest
