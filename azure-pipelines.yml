@@ -13,4 +13,4 @@ steps:
     
 - script: |
     pip install pytest
-    pytest test
+    pytest
