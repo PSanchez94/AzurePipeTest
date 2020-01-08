@@ -6,4 +6,4 @@ def test_simplesum():
 
 
 def test_failingsum():
-    assert simple_sum(1, 1) == 3
+    assert not simple_sum(1, 1) == 3
