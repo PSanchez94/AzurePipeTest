@@ -5,12 +5,9 @@
 
 trigger:
 - master
-
-steps:
-- task: UsePythonVersion@0
-  inputs:
-    versionSpec: '3.6'
     
-- script: |
-    pip install pytest
-    pytest
+- task: BatchScript@1
+  inputs:
+    filename: ingresador.bat
+    arguments: ant 4.1.8.5
+    workingFolder: $(Agent.WorkFolder)\Test\app
